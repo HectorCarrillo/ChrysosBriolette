@@ -75,6 +75,13 @@ nav a {
     width: 110px;
     margin: 0px 10px;
     color: #b19556;
+    border-bottom: 3px solid transparent;
+    -webkit-transition: all 0.2s linear;
+    -moz-transition: all 0.2s linear;
+    -ms-transition: all 0.2s linear;
+    -o-transition: all 0.2s linear;
+    transition: all 0.2s linear;
+    
 }
 nav a:hover {
     box-sizing: border-box;

@@ -1,22 +1,22 @@
 <!DOCTYPE html>
 <html>
 <head>
-	<meta charset="utf-8">
-	<meta name="viewport" content="width=device-width, user-scalable=no, initial-scale=1.0, maximun-scale=1.0, minimun-scale=1.0">
-	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+	<meta charset="utf-8"></meta>
+	<meta name="viewport" content="width=device-width, user-scalable=no, initial-scale=1.0, maximun-scale=1.0, minimun-scale=1.0"></meta>
+	<meta http-equiv="X-UA-Compatible" content="IE=edge"></meta>
 	<title>Form-6</title>
-	<link href="https://fonts.googleapis.com/css?family=Courgette|Open+Sans+Condensed:300,300i|Philosopher|Playfair+Display:400,700|Poiret+One|Quattrocento+Sans" rel="stylesheet">
-	<link rel="stylesheet" href="./css/style-form-6.css">
-	<link href="./css/style-icon.css" rel="stylesheet" type="text/css">
+	<link href="https://fonts.googleapis.com/css?family=Courgette|Open+Sans+Condensed:300,300i|Philosopher|Playfair+Display:400,700|Poiret+One|Quattrocento+Sans" rel="stylesheet"></link>
+	<link rel="stylesheet" href="./css/style-form-6.css"></link>
+	<link href="./css/style-icon.css" rel="stylesheet" type="text/css"></link>
 </head>
 <body>
 	<header id="header" class="header">
 		<div class="container-header">
 		    <div class="logo">
 		    	<a href="./index.php" id="home" title="Home">
-		       	<img alt="Chrysosbriolette" src="./img/logo-form.jpg">
-		        </img>
-		      </a>
+		       		<img alt="Chrysosbriolette" src="./img/logo-form.jpg">
+		        	</img>
+		      	</a>
 		    </div>
 		    <div class="main-menu mov-2">
 		        <nav id="nav-toggle">
@@ -27,19 +27,19 @@
 		 		</div>
 				<div class="spacingup">
 		 			<div class="media">
-            <a id="facebook" href="#" title="facebook">
-                <span class="icon-facebook">
-                </span>
-            </a>
-             <a id="instagram" href="#" title="instagram">
-                <span class="icon-instagram">
-                </span>
-            </a>
-            <a id="youtube" href="#" title="youtube">
-                <span class="icon-youtube">
-                </span>
-            </a>
-        	</div>
+            			<a id="facebook" href="#" title="facebook">
+                			<span class="icon-facebook">
+               				 </span>
+            			</a>
+             			<a id="instagram" href="#" title="instagram">
+                			<span class="icon-instagram">
+                			</span>
+            			</a>
+            			<a id="youtube" href="#" title="youtube">
+                			<span class="icon-youtube">
+               				</span>
+            			</a>
+        			</div>
 		 		</div>
 		</div>
 	</header>

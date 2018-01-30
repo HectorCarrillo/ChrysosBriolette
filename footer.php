@@ -1,20 +1,13 @@
  <!DOCTYPE html>
 <html>
     <head>
-        <meta name="viewport" content="width=device-width, user-scalable=no, initial-scale=1.0, maximun-scale=1.0, minimun-scale=1.0">
-        <meta charset="utf-8">
-            <meta content="IE=edge" http-equiv="X-UA-Compatible">
-                <title>
-                    footer
-                </title>
-                <link href="https://fonts.googleapis.com/css?family=Libre+Baskerville:400,700|Lobster|Roboto:400,500" rel="stylesheet">
-                    <link href="./css/style-main.css" rel="stylesheet">
-                    </link>
-                </link>
-                <link href="./css/style-icon.css" rel="stylesheet" type="text/css">
-                </link>
-            </meta>
-        </meta>
+        <meta name="viewport" content="width=device-width, user-scalable=no, initial-scale=1.0, maximun-scale=1.0, minimun-scale=1.0"></meta>
+        <meta charset="utf-8"></meta>
+        <meta content="IE=edge" http-equiv="X-UA-Compatible"></meta>
+        <title>footer</title>
+        <link href="https://fonts.googleapis.com/css?family=Libre+Baskerville:400,700|Lobster|Roboto:400,500" rel="stylesheet"></link>
+        <link href="./css/style-main.css" rel="stylesheet"></link>
+        <link href="./css/style-icon.css" rel="stylesheet" type="text/css"></link>
     </head>
 <body>
 <footer>
@@ -70,11 +63,11 @@
                                     <span class="icon-facebook">
                                     </span>
                                 </a>
-                                <a href="#" title="facebook">
+                                <a href="#" title="instagram">
                                     <span class="icon-instagram">
                                     </span>
                                 </a>
-                                <a href="#" title="facebook">
+                                <a href="#" title="youtube">
                                     <span class="icon-youtube">
                                     </span>
                                 </a>
@@ -86,7 +79,7 @@
             <div class="copyright">
                 <div id="copyright">
                     <h2>
-                        copyright@chrysos3djoyeria | Diseños personalizados en joyeria fina.
+                        Diseños personalizados en joyeria fina.
                     </h2>
                 </div>
             </div>

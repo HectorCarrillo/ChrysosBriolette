@@ -1,17 +1,13 @@
 <!DOCTYPE html>
 <html>
     <head>
-        <meta charset="utf-8">
-        <meta name="viewport" content="width=device-width, user-scalable=no, initial-scale=1.0, maximun-scale=1.0, minimun-scale=1.0">
-            <meta content="IE=edge" http-equiv="X-UA-Compatible">
-                <title>
-                    Chrysos
-                </title>
-                <link href="https://fonts.googleapis.com/css?family=Libre+Baskerville:400,700|Lobster|Roboto:400,500" rel="stylesheet">
-                <link href="./css/style-main.css" rel="stylesheet">
-                <link href="./css/style-icon.css" rel="stylesheet" type="text/css">
-            </meta>
-        </meta>
+        <meta charset="utf-8"></meta>
+        <meta name="viewport" content="width=device-width, user-scalable=no, initial-scale=1.0, maximun-scale=1.0, minimun-scale=1.0"></meta>
+        <meta content="IE=edge" http-equiv="X-UA-Compatible"></meta>
+        <title>Chrysos-Briolette</title>
+        <link href="https://fonts.googleapis.com/css?family=Libre+Baskerville:400,700|Lobster|Roboto:400,500" rel="stylesheet"></link>
+        <link href="./css/style-main.css" rel="stylesheet"></link>
+        <link href="./css/style-icon.css" rel="stylesheet" type="text/css"></link>
     </head>
     <body>
         <?php
@@ -31,11 +27,11 @@
                                 </h2>
                                 <p class="description">
                                     Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
-                                                         tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam.
+                                    tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam.
                                 </p>
                             </div>
                             <div class="btn" id="btn-1">
-                                <a href="./items.html" title="">
+                                <a href="#" title="">
                                     Ver más
                                 </a>
                             </div>
@@ -49,7 +45,7 @@
                                 </h2>
                                 <p class="description">
                                     Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
-                                                        tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam.
+                                    tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam.
                                 </p>
                             </div>
                             <div class="btn" id="btn-1">
@@ -67,7 +63,7 @@
                                 </h2>
                                 <p class="description">
                                     Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
-                                                         tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam.
+                                    tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam.
                                 </p>
                             </div>
                             <div class="btn" id="btn-1">

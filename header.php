@@ -1,73 +1,69 @@
 <!DOCTYPE html>
 <html>
     <head>
-        <meta name="viewport" content="width=device-width, user-scalable=no, initial-scale=1.0, maximun-scale=1.0, minimun-scale=1.0">
-        <meta charset="utf-8">
-            <meta content="IE=edge" http-equiv="X-UA-Compatible">
-                <title>
-                    header
-                </title>
-                <link href="https://fonts.googleapis.com/css?family=Libre+Baskerville:400,700|Lobster|Roboto:400,500" rel="stylesheet">
-                <link href="./css/style-icon.css" rel="stylesheet" type="text/css">
-                <link rel="stylesheet" type="text/css" href="./css/style-header-main.css">
-                <!-- <script src="./js/effect-main.js" type="text/javascript" charset="utf-8" ></script>
-                <script src="./js/jquery-3.1.1.min.js" type="text/javascript" charset="utf-8" ></script> -->
-            </meta>
-        </meta>
+        <meta name="viewport" content="width=device-width, user-scalable=no, initial-scale=1.0, maximun-scale=1.0, minimun-scale=1.0"></meta>
+        <meta charset="utf-8"></meta>
+        <meta content="IE=edge" http-equiv="X-UA-Compatible"></meta>
+        <title>header</title>
+        <link href="https://fonts.googleapis.com/css?family=Libre+Baskerville:400,700|Lobster|Roboto:400,500" rel="stylesheet"></link>
+        <link href="./css/style-icon.css" rel="stylesheet" type="text/css"></link>
+        <link rel="stylesheet" type="text/css" href="./css/style-header-main.css"></link>
     </head>
 <body>
 <header>
-            <div id="container">
-                <div class="menu-movil">
-                   <div id="wraper">
+    <div id="container">
+        <div class="menu-movil">
+            <div id="wraper">
                         <div  id="myMenu" class="main-item movil" onclick="myFunction()">
                             <span class="line line01"></span>
                             <span class="line line02"></span>
                             <span class="line line03"></span>
                         </div>
-                    </div>
-                    <div id="myDropdown" class="dropdown-content movil-nav mov-nav">
-                        <a href="./index.php" id="home" title="Home">
-                            HOME
+            </div>
+            <div id="myDropdown" class="dropdown-content movil-nav mov-nav">
+                       <a href="./index.php" id="home" title="Inicio">
+                            Inicio
                         </a>
-                        <a href="#<!-- ./items.php -->" title="Joyeria">
-                            JOYERIA
+                        <a href="#" title="Joyeria">
+                            Joyeria
                         </a>
-                        <a href="#<!-- ./engagement.php -->" title="Compromiso">
-                            COMPROMISO
+                        <a href="#" title="Compromiso">
+                            Compromiso
                         </a>
-                        <a href="#<!-- ./gifts.php -->" title="Regalos">
-                            REGALOS
+                        <a href="#" title="Regalos">
+                            Regalos
                         </a>
-                        <a href="#<!-- ./chrysos.php -->" title="pendientes">
-                            ACERCA DE
+                        <a href="#" title="Ubicación">
+                            Ubicación
                         </a>
-                    </div>
-                </div>
-                <div class="logo">
-                    <img alt="" src="./img/logo.jpg">
-                    </img>
-                </div>
-                <div class="main-menu mov-2">
-                    <nav id="nav-toggle">
-                        <a href="./index.php" id="home" title="Home">
-                            HOME
+            </div>
+        </div>
+        <div class="logo">
+                    <a href="./index.php" id="home" title="Inicio">
+                        <img alt="Chrysosbriolette" src="./img/logo.jpg">
+                        </img>
+                    </a>
+        </div>
+        <div class="main-menu mov-2">
+            <nav id="nav-toggle">
+                        <a href="./index.php" id="home" title="Inicio">
+                            Inicio
                         </a>
                         <a href="./items.php" title="Joyeria">
-                            JOYERIA
+                            Joyeria
                         </a>
                         <a href="./engagement.php" title="Compromiso">
-                            COMPROMISO
+                            Compromiso
                         </a>
                         <a href="./gifts.php" title="Regalos">
-                            REGALOS
+                            Regalos
                         </a>
-                        <a href="./chrysos.php" title="pendientes">
-                            ACERCA DE
+                        <a href="./chrysos.php" title="Ubicación">
+                            Ubicación
                         </a>
-                    </nav>
-                </div>
-            </div>
+            </nav>
+        </div>
+    </div>
 </header>
 <script>
     function myFunction() {

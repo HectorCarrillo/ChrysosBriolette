@@ -62,7 +62,6 @@
     @media screen and (min-width: 280px) and (max-width: 400px) {
       #slider-main{
         top: 50px;
-/*border: 2px solid red;*/
         height: 200px;
       }
     }
