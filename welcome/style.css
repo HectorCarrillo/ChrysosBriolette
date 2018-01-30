@@ -1,0 +1,146 @@
+* {
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+}
+
+body {
+	font-size: 16px;
+	-webkit-color: #ffff;
+	-moz-color: #ffff;
+	-o-color: #ffff;
+	color: #ffff;
+	font-family: roboto;
+	box-sizing: border-box;
+	background-image: url(../img/bg.jpg);
+	background-size: cover;
+	background-attachment: fixed;
+	background-repeat: no-repeat;
+}
+
+.content-main {
+	width: 100%;
+	height: 100vh;
+	padding: 20px;
+	overflow: hidden;
+	background-color: rgba(23, 32, 42, 0.5);
+}
+
+.wrap {
+	width: 90%;
+	margin: auto;
+	padding: 20px;
+}
+
+.flex-conteiner,
+.location .box-date {
+	display: -ms-flexbox;
+	display: -webkit-flex;
+	display: flex;
+	-webkit-flex-direction: row;
+	-ms-flex-direction: row;
+	flex-direction: row;
+	-webkit-flex-wrap: wrap;
+	-ms-flex-wrap: wrap;
+	flex-wrap: wrap;
+	-webkit-justify-content: space-between;
+	-ms-flex-pack: justify;
+	justify-content: space-between;
+	-webkit-align-content: space-between;
+	-ms-flex-line-pack: justify;
+	align-content: space-between;
+	-webkit-align-items: center;
+	-ms-flex-align: center;
+	align-items: center;
+}
+
+.business-logo {
+	width: 100%;
+	background-color: #fff;
+	padding: 50px;
+	text-align: center;
+}
+
+.logo {
+	width: 100%;
+	text-align: center;
+}
+
+.business-date {
+	border-top: 4px solid #b19556;
+	width: 100%;
+	padding: 20px;
+	margin: auto;
+	background-color: #273746;
+}
+
+.direction,
+.email,
+.phone {
+	background-color: #273746;
+	padding: 10px;
+	width: 30%;
+	height: 150px;
+}
+
+.direction .title,
+.email .title,
+.phone .title {
+	text-align: center;
+	margin: 10px;
+}
+
+.direction h2,
+.email h2,
+.phone h2 {
+	font-size: 1em;
+	color: #ffff;
+	text-align: center;
+}
+
+.icon-box {
+	margin-top: 10px;
+	padding: 10px;
+	text-align: center;
+}
+
+.icon-box span {
+	font-size: 2em;
+	color: #566573;
+}
+
+.business-social {
+	width: 100%;
+	padding: 50px;
+	text-align: center;
+	background-color: #273746;
+}
+
+.box-social {
+	width: 50%;
+	margin: auto;
+	padding: 10px;
+	border-radius: 40px;
+	background-color: #2C3E50;
+}
+
+.social {
+	width: 90%;
+	text-align: center;
+	margin: auto;
+	padding: 10px;
+}
+
+.social a {
+	text-decoration: none;
+	color: #566573;
+	margin: 0px 30px;
+}
+
+.social a:hover {
+	color: #ABB2B9;
+}
+
+.social span {
+	font-size: 1.5em;
+}
