@@ -2,7 +2,7 @@
 <html>
 <head>
 	<meta charset="utf-8">
-	<meta name="viewport" content="width=device-width, user-scalable=no, initial-scale=1.0, maximun-scale=1.0, minimun-scale=1.0">
+	
 	<meta http-equiv="X-UA-Compatible" content="IE=edge">
 	<title>Diseño</title>
 	 <link href="https://fonts.googleapis.com/css?family=Courgette|Open+Sans+Condensed:300,300i|Philosopher|Playfair+Display:400,700|Poiret+One|Quattrocento+Sans" rel="stylesheet">

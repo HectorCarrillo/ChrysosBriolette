@@ -62,7 +62,7 @@
                                 <option value="N°10">
                                     N°10
                                 </option>
-								<option value="N°11">
+								                <option value="N°11">
                                     N°11
                                 </option>
                                 <option value="N°12">
@@ -80,7 +80,7 @@
                                 <option value="N°16">
                                     N°16
                                 </option>
-								<option value="N°17">
+								                <option value="N°17">
                                     N°17
                                 </option>
                                 <option value="N°18">
@@ -204,13 +204,13 @@
 		</div>
 	</div>
 <script language="javascript">
-$(document).ready(function(e) {
-try {
-$("body select").msDropDown();
-} catch(e) {
-alert(e.message);
-}
-});
+  $(document).ready(function(e) {
+      try {
+          $("body select").msDropDown();
+          } catch(e) {
+        alert(e.message);
+      }
+  });
 </script>
 </body>
 </html>

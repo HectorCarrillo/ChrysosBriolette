@@ -6,8 +6,12 @@
         <meta content="IE=edge" http-equiv="X-UA-Compatible"></meta>
         <title>Chrysos-Briolette</title>
         <link href="https://fonts.googleapis.com/css?family=Libre+Baskerville:400,700|Lobster|Roboto:400,500" rel="stylesheet"></link>
-        <link href="./css/style-main.css" rel="stylesheet"></link>
+        <link href="./css/style-index-main.css" rel="stylesheet"></link>
         <link href="./css/style-icon.css" rel="stylesheet" type="text/css"></link>
+        <script src="./js/effect-index.js">
+        </script>
+        <script src="./js/jquery-3.1.1.min.js">
+        </script>
     </head>
     <body>
         <?php

@@ -6,7 +6,7 @@
         <meta content="IE=edge" http-equiv="X-UA-Compatible"></meta>
         <title>footer</title>
         <link href="https://fonts.googleapis.com/css?family=Libre+Baskerville:400,700|Lobster|Roboto:400,500" rel="stylesheet"></link>
-        <link href="./css/style-main.css" rel="stylesheet"></link>
+        <link href="./css/style-footer-main.css" rel="stylesheet"></link>
         <link href="./css/style-icon.css" rel="stylesheet" type="text/css"></link>
     </head>
 <body>
@@ -16,9 +16,9 @@
                     <div class="box-foo">
                         <div class="box-one movil-foo-one">
                             <div class="title">
-                                <h2>
+                                <h1>
                                     Servicio al cliente
-                                </h2>
+                                </h1>
                             </div>
                             <div class="contact">
                                 <h2>
@@ -30,6 +30,10 @@
                                     <span class="icon-envelop">
                                     </span>
                                     ventas@chrysos3djoyeria.com.mx
+                                </h2>
+                                <h2>
+                                    <span class="icon-envelop">
+                                    </span>
                                     baltazar@chrysos3djoyeria.com.mx
                                 </h2>
                                 <h2>
@@ -41,9 +45,9 @@
                         </div>
                         <div class="box-two movil-foo-two">
                             <div class="title">
-                                <h2>
+                                <h1>
                                     Nosotros
-                                </h2>
+                                </h1>
                             </div>
                             <div class="descrip">
                                 <p>
@@ -54,9 +58,9 @@
                         </div>
                         <div class="box-tree movil-foo-tree">
                             <div class="title">
-                                <h2>
+                                <h1>
                                     Redes Sociales
-                                </h2>
+                                </h1>
                             </div>
                             <div class="social">
                                 <a href="#" title="facebook">

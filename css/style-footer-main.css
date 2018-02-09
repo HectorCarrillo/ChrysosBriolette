@@ -1,0 +1,168 @@
+/* ------------------ conf footer -------------------*/
+
+footer {
+    width: 100%;
+    overflow: hidden;
+    box-sizing: border-box;
+    text-align: center;
+    background-color: #2b252c;
+    padding: 0px;
+    position: relative;
+    top: 250px;
+}
+footer .copyright {
+    margin: 10px auto;
+    padding: 20px;
+    text-align: center;
+    width: 90%;
+}
+footer .wrap-foo {
+    width: 100%;
+    /*border: 2px solid blue;*/
+    margin: 0px;
+    padding: 0px;
+}
+footer .wrap-foo .conteiner {
+    width: 100%;
+    border: 2px solid white;
+    margin: 0px;
+    padding: 0px;
+}
+footer .wrap-foo .conteiner .box-foo {
+    width: 100%;
+    border: 2px solid red;
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+    display: -ms-flexbox;
+    display: -webkit-flex;
+    display: flex;
+    -webkit-flex-direction: row;
+    -ms-flex-direction: row;
+    flex-direction: row;
+    -webkit-flex-wrap: wrap;
+    -ms-flex-wrap: wrap;
+    flex-wrap: wrap;
+    -webkit-justify-content: center;
+    -ms-flex-pack: center;
+    justify-content: center;
+    -webkit-align-content: space-between;
+    -ms-flex-line-pack: justify;
+    align-content: space-between;
+    -webkit-align-items: center;
+    -ms-flex-align: center;
+    align-items: center;
+}
+footer .wrap-foo .conteiner .box-foo .box-one {
+    width: 50%;
+    height: 230px;
+    margin: 0px 0px;
+    text-align: center;
+    padding: 5px;
+    box-sizing: border-box;
+    border: 2px solid white;
+}
+footer .wrap-foo .conteiner .box-foo .box-two, footer .wrap-foo .conteiner .box-foo .box-tree {
+    width: 20%;
+    height: 230px;
+    margin: 0px 0px;
+    text-align: center;
+    padding: 10px;
+    box-sizing: border-box;
+    border: 2px solid red;
+}
+footer .wrap-foo .conteiner .box-foo .box-tree {
+    width: 30%;
+    /*border: 2px solid blue;*/
+}
+footer .wrap-foo .conteiner .box-foo .title h1 {
+    color: #90A4AE;
+    font-family: 'Roboto', sans-serif;
+    font-weight: 500;
+    font-size: 1em;
+    text-align: center;
+    margin: 10px;
+}
+footer .wrap-foo .conteiner .box-foo .contact h2 {
+    color: #ECEFF1;
+    font-family: 'Roboto', sans-serif;
+    font-weight: 400;
+    font-size: 14px;
+    text-align: justify;
+    margin: 0px 0px;
+    line-height: 30px;
+}
+footer .wrap-foo .conteiner .box-foo .contact span {
+    color: #90A4AE;
+    margin: 0px 5px;
+}
+footer .wrap-foo .conteiner .box-foo .descrip p {
+    color: #ECEFF1;
+    font-family: 'Roboto', sans-serif;
+    font-weight: 400;
+    font-size: 14px;
+    text-align: justify;
+
+}
+footer .wrap-foo .conteiner .box-foo .social {
+    margin: auto;
+    padding: 10px;
+    text-align: center;
+    width: 100%;
+    border-radius: 40px;
+    background-color: #302a31;
+}
+footer .wrap-foo .conteiner .box-foo .social a {
+    text-decoration: none;
+    display: inline-block;
+    margin: 0px 10px;
+    color: #90A4AE;
+    font-size: 1em;
+    border-radius: 100%;
+}
+footer .wrap-foo .conteiner .box-foo .social a:hover {
+    color: #ffff;
+}
+footer #copyright {
+    color: #c8a22b;
+    font-size: 12px;
+    font-weight: 400;
+}
+@media screen and (min-width: 280px) and (max-width: 700px) {
+    footer {
+        width: 100%;
+        padding: 0px;
+        /*border: 2px solid white;*/
+    }
+    footer .wrap-foo, footer .wrap-foo .conteiner, footer .wrap-foo .conteiner .box-foo {
+        width: 100%;
+        /*border: 2px solid blue;*/
+        padding: 0px;
+        margin: 0px;
+    }
+    footer .wrap-foo .conteiner .box-foo .movil-foo-one, footer .wrap-foo .conteiner .box-foo .movil-foo-two, footer .wrap-foo .conteiner .box-foo .movil-foo-tree {
+        /*border: 2px solid green;*/
+        width: 100%;
+        height: 250px;
+        padding: 10px;
+        overflow: auto;
+    }
+    footer .wrap-foo .conteiner .box-foo .movil-foo-two, footer .wrap-foo .conteiner .box-foo .movil-foo-tree {
+        margin-top: 60px;
+    }
+    footer .wrap-foo .conteiner .box-foo .movil-foo-one .contact h2 {
+        font-size: 16px;
+        text-align: center;
+    }
+    footer .wrap-foo .conteiner .box-foo .movil-foo-one .contact span {
+        font-size: 16px;
+        text-align: center;
+    }
+}
+@media screen and (min-width: 650px) and (max-width: 780px) {
+    footer #copyright {
+        color: #c8a22b;
+        font-size: 10px;
+        font-weight: 400;
+    }
+}
