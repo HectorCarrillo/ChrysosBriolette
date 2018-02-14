@@ -24,7 +24,7 @@
                        <a href="./index.php" id="home" title="Inicio">
                             Inicio
                         </a>
-                        <a href="#" title="Joyeria">
+                        <a href="./joyeria.php" title="Joyeria">
                             Joyeria
                         </a>
                         <a href="#" title="Compromiso">
@@ -49,7 +49,7 @@
                         <a href="./index.php" id="home" title="Inicio">
                             Inicio
                         </a>
-                        <a href="./items.php" title="Joyeria">
+                        <a href="./joyeria.php" title="Joyeria">
                             Joyeria
                         </a>
                         <a href="./engagement.php" title="Compromiso">
