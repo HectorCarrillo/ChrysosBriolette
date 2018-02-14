@@ -8,6 +8,8 @@
 	<link href="https://fonts.googleapis.com/css?family=Courgette|Open+Sans+Condensed:300,300i|Philosopher|Playfair+Display:400,700|Poiret+One|Quattrocento+Sans" rel="stylesheet"></link>
 	<link rel="stylesheet" href="./css/style-form-6.css"></link>
 	<link href="./css/style-icon.css" rel="stylesheet" type="text/css"></link>
+	<script src="./js/jquery-1.9.0.min.js" type="text/javascript"></script>
+	<script src="./js/jquery.dd.min.js" type="text/javascript"></script>
 </head>
 <body>
 	<header id="header" class="header">
@@ -63,6 +65,25 @@
 							<input id="phone" class="input-main phone" name="phone" type="text" value="" placeholder="Teléfono">
 						</div>
 					</div>
+					<div class="container-main-items">
+						<div class="container-items">
+							<select  class="select-conf model select-movil" name="webmenu" id="webmenu">
+								<option class="title-opt" value="Modelo-default">Selecione un modelo</option>
+   								<option value="" data-image="./img/mini-1.jpg">aqwerty</option>
+    							<option value="" data-image="./img/mini-2.jpg">aqwerty</option>
+    							<option value="" data-image="./img/mini-3.jpg">aqwerty</option>
+    							<option value="" data-image="./img/mini-1.jpg">aqwerty</option>
+    							<option value="" data-image="./img/mini-2.jpg">aqwerty</option>
+    							<option value="" data-image="./img/mini-3.jpg">aqwerty</option>
+  							</select>
+							<select class="select-conf material select-movil" >
+								<option class="title-opt" value="Material">Selecione un material</option>
+								<option data-image="./img/mini-oro.jpg" value="Oro">Oro</option>
+								<option data-image="./img/mini-plata.jpg" value="Plata">Plata</option>
+								<option data-image="./img/mini-otro.jpg" value="Otro">Otro</option>
+							</select>
+						</div>
+					</div>
 					<div class="container-main-remarke">
 						<div class="container-remarke">
 							<textarea id="remarke" class="remarke" name="remarke" placeholder="Comentarios:">
@@ -79,33 +100,18 @@
 							</div>
 						</div>
 					</div>
-					<div class="container-main-back">
-						<div class="container-back">
-							<div class="back">
-								<nav>
-									<a href="./index.php"></a>
-									<a href="#"></a>
-								</nav>
-								<div class="media">
-                  <a id="facebook" href="#" title="facebook">
-                      <span class="icon-facebook">
-                      </span>
-                  </a>
-                  <a id="instagram" href="#" title="instagram">
-                      <span class="icon-instagram">
-                      </span>
-                  </a>
-                  <a id="youtube" href="#" title="youtube">
-                      <span class="icon-youtube">
-                      </span>
-                  </a>
-                </div>
-							</div>
-						</div>
-					</div>
 				</div>
 			</form>
 		</div>
 	</section>
+<script language="javascript">
+  $(document).ready(function(e) {
+      try {
+          $("body select").msDropDown();
+          } catch(e) {
+        alert(e.message);
+      }
+  });
+</script>
 </body>
 </html>

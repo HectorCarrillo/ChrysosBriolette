@@ -8,10 +8,14 @@
         <link href="https://fonts.googleapis.com/css?family=Libre+Baskerville:400,700|Lobster|Roboto:400,500" rel="stylesheet"></link>
         <link href="./css/style-icon.css" rel="stylesheet" type="text/css"></link>
         <link rel="stylesheet" type="text/css" href="./css/style-header-main.css"></link>
+        <script src="./js/effect-index.js">
+        </script>
+        <script src="./js/jquery-3.1.1.min.js">
+        </script>
     </head>
 <body>
 <header>
-    <div id="container">
+    <div id="container container-2">
         <div class="menu-movil">
             <div id="wraper">
                         <div  id="myMenu" class="main-item movil" onclick="myFunction()">
@@ -38,13 +42,13 @@
                         </a>
             </div>
         </div>
-        <div class="logo">
+        <div class="logo logo-mini">
                     <a href="./index.php" id="home" title="Inicio">
-                        <img alt="Chrysosbriolette" src="./img/logo.jpg">
+                        <img alt="Chrysosbriolette" src="./img/logo-mini.jpg">
                         </img>
                     </a>
         </div>
-        <div class="main-menu mov-2">
+        <div class="main-menu main-menu-2 mov-2">
             <nav id="nav-toggle">
                         <a href="./index.php" id="home" title="Inicio">
                             Inicio
@@ -66,7 +70,7 @@
     </div>
 </header>
 <script>
-    function myFunction() {
+ function myFunction() {
         document.getElementById("myDropdown").classList.toggle("show");
         
     }
