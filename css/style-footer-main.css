@@ -24,13 +24,13 @@ footer .wrap-foo {
 }
 footer .wrap-foo .conteiner {
     width: 100%;
-    border: 2px solid white;
+    /*border: 2px solid white;*/
     margin: 0px;
     padding: 0px;
 }
 footer .wrap-foo .conteiner .box-foo {
     width: 100%;
-    border: 2px solid red;
+    /*border: 2px solid red;*/
     margin: 0px;
     padding: 0px;
     box-sizing: border-box;
@@ -54,26 +54,25 @@ footer .wrap-foo .conteiner .box-foo {
     align-items: center;
 }
 footer .wrap-foo .conteiner .box-foo .box-one {
-    width: 50%;
-    height: 230px;
-    margin: 0px 0px;
-    text-align: center;
-    padding: 5px;
-    box-sizing: border-box;
-    border: 2px solid white;
+    width: 40%;
+    /*border: 2px solid white;*/
 }
-footer .wrap-foo .conteiner .box-foo .box-two, footer .wrap-foo .conteiner .box-foo .box-tree {
-    width: 20%;
-    height: 230px;
-    margin: 0px 0px;
-    text-align: center;
-    padding: 10px;
-    box-sizing: border-box;
-    border: 2px solid red;
+footer .wrap-foo .conteiner .box-foo .box-one h2 span{
+    margin-left: 15px;
+}
+footer .wrap-foo .conteiner .box-foo .box-two {
+    width: 30%;
+    /*border: 2px solid green;*/
 }
 footer .wrap-foo .conteiner .box-foo .box-tree {
     width: 30%;
     /*border: 2px solid blue;*/
+}
+footer .wrap-foo .conteiner .box-foo .box-one, footer .wrap-foo .conteiner .box-foo .box-two, footer .wrap-foo .conteiner .box-foo .box-tree {
+    height: 230px;
+    text-align: center;
+    padding: 10px;
+    box-sizing: border-box;
 }
 footer .wrap-foo .conteiner .box-foo .title h1 {
     color: #90A4AE;
@@ -102,7 +101,6 @@ footer .wrap-foo .conteiner .box-foo .descrip p {
     font-weight: 400;
     font-size: 14px;
     text-align: justify;
-
 }
 footer .wrap-foo .conteiner .box-foo .social {
     margin: auto;
@@ -137,6 +135,7 @@ footer #copyright {
     footer .wrap-foo, footer .wrap-foo .conteiner, footer .wrap-foo .conteiner .box-foo {
         width: 100%;
         /*border: 2px solid blue;*/
+        box-sizing: border-box;
         padding: 0px;
         margin: 0px;
     }
@@ -144,12 +143,13 @@ footer #copyright {
         /*border: 2px solid green;*/
         width: 100%;
         height: 250px;
-        padding: 10px;
+        padding: 20px;
         overflow: auto;
+        box-sizing: border-box;
     }
-    footer .wrap-foo .conteiner .box-foo .movil-foo-two, footer .wrap-foo .conteiner .box-foo .movil-foo-tree {
-        margin-top: 60px;
-    }
+     footer .wrap-foo .conteiner .box-foo .movil-foo-tree{
+        height: 150px;
+     }
     footer .wrap-foo .conteiner .box-foo .movil-foo-one .contact h2 {
         font-size: 16px;
         text-align: center;
@@ -162,7 +162,7 @@ footer #copyright {
 @media screen and (min-width: 650px) and (max-width: 780px) {
     footer #copyright {
         color: #c8a22b;
-        font-size: 10px;
+        font-size: 9px;
         font-weight: 400;
     }
 }

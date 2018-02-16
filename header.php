@@ -44,7 +44,7 @@
         </div>
         <div class="logo logo-mini">
                     <a href="./index.php" id="home" title="Inicio">
-                        <img alt="Chrysosbriolette" src="./img/logo-mini.jpg">
+                        <img alt="Chrysosbriolette" src="./img/miniL.png">
                         </img>
                     </a>
         </div>
