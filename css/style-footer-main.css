@@ -24,13 +24,13 @@ footer .wrap-foo {
 }
 footer .wrap-foo .conteiner {
     width: 100%;
-    border: 2px solid white;
+    /* border: 2px solid white; */
     margin: 0px;
     padding: 0px;
 }
 footer .wrap-foo .conteiner .box-foo {
     width: 100%;
-    border: 2px solid red;
+ /*    border: 2px solid red; */
     margin: 0px;
     padding: 0px;
     box-sizing: border-box;
@@ -60,7 +60,7 @@ footer .wrap-foo .conteiner .box-foo .box-one {
     text-align: center;
     padding: 5px;
     box-sizing: border-box;
-    border: 2px solid white;
+    /* border: 2px solid white; */
 }
 footer .wrap-foo .conteiner .box-foo .box-two, footer .wrap-foo .conteiner .box-foo .box-tree {
     width: 20%;
@@ -69,7 +69,7 @@ footer .wrap-foo .conteiner .box-foo .box-two, footer .wrap-foo .conteiner .box-
     text-align: center;
     padding: 10px;
     box-sizing: border-box;
-    border: 2px solid red;
+   /*  border: 2px solid red; */
 }
 footer .wrap-foo .conteiner .box-foo .box-tree {
     width: 30%;
