@@ -39,7 +39,7 @@
                                 <h2>
                                     <span class="icon-location">
                                     </span>
-                                    Calle 14 #192 por 19 y 21 Col. México Oriente
+                                    Calle 14 N° 192 por 19 & 21 Col. México Oriente.
                                 </h2>
                             </div>
                         </div>

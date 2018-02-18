@@ -84,7 +84,6 @@ body {
     flex-wrap: wrap;
     align-items: center;
     box-sizing: border-box;
-    overflow: hidden;
     margin: 50px 50px;
 }
 .info {

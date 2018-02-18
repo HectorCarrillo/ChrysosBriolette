@@ -37,7 +37,7 @@
                         <a href="#" title="Regalos">
                             Regalos
                         </a>
-                        <a href="#" title="Ubicación">
+                        <a href="./location.php" title="Ubicación">
                             Ubicación
                         </a>
             </div>
@@ -62,7 +62,7 @@
                         <a href="./gifts.php" title="Regalos">
                             Regalos
                         </a>
-                        <a href="./chrysos.php" title="Ubicación">
+                        <a href="./location.php" title="Ubicación">
                             Ubicación
                         </a>
             </nav>
