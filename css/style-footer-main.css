@@ -24,13 +24,21 @@ footer .wrap-foo {
 }
 footer .wrap-foo .conteiner {
     width: 100%;
+<<<<<<< HEAD
+    /* border: 2px solid white; */
+=======
     /*border: 2px solid white;*/
+>>>>>>> 45687f34404d069bc8103e7bd2d845cbed482723
     margin: 0px;
     padding: 0px;
 }
 footer .wrap-foo .conteiner .box-foo {
     width: 100%;
+<<<<<<< HEAD
+ /*    border: 2px solid red; */
+=======
     /*border: 2px solid red;*/
+>>>>>>> 45687f34404d069bc8103e7bd2d845cbed482723
     margin: 0px;
     padding: 0px;
     box-sizing: border-box;
@@ -54,6 +62,24 @@ footer .wrap-foo .conteiner .box-foo {
     align-items: center;
 }
 footer .wrap-foo .conteiner .box-foo .box-one {
+<<<<<<< HEAD
+    width: 50%;
+    height: 230px;
+    margin: 0px 0px;
+    text-align: center;
+    padding: 5px;
+    box-sizing: border-box;
+    /* border: 2px solid white; */
+}
+footer .wrap-foo .conteiner .box-foo .box-two, footer .wrap-foo .conteiner .box-foo .box-tree {
+    width: 20%;
+    height: 230px;
+    margin: 0px 0px;
+    text-align: center;
+    padding: 10px;
+    box-sizing: border-box;
+   /*  border: 2px solid red; */
+=======
     width: 40%;
     /*border: 2px solid white;*/
 }
@@ -63,6 +89,7 @@ footer .wrap-foo .conteiner .box-foo .box-one h2 span{
 footer .wrap-foo .conteiner .box-foo .box-two {
     width: 30%;
     /*border: 2px solid green;*/
+>>>>>>> 45687f34404d069bc8103e7bd2d845cbed482723
 }
 footer .wrap-foo .conteiner .box-foo .box-tree {
     width: 30%;
