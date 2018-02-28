@@ -1,15 +1,3 @@
- <!DOCTYPE html>
-<html>
-    <head>
-        <meta name="viewport" content="width=device-width, user-scalable=no, initial-scale=1.0, maximun-scale=1.0, minimun-scale=1.0"></meta>
-        <meta charset="utf-8"></meta>
-        <meta content="IE=edge" http-equiv="X-UA-Compatible"></meta>
-        <title>footer</title>
-        <link href="https://fonts.googleapis.com/css?family=Libre+Baskerville:400,700|Lobster|Roboto:400,500" rel="stylesheet"></link>
-        <link href="./css/style-footer-main.css" rel="stylesheet"></link>
-        <link href="./css/style-icon.css" rel="stylesheet" type="text/css"></link>
-    </head>
-<body>
 <footer>
             <div class="wrap-foo">
                 <div class="conteiner">
@@ -88,5 +76,3 @@
                 </div>
             </div>
 </footer>
-</body>
-</html>

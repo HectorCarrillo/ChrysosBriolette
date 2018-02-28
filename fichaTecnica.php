@@ -12,32 +12,38 @@
             include("./header.php");
         ?> 
 
-<meta name="viewport" content="width=device-width, initial-scale=1">
-/* Implementacion de Bootstrap V4 <<<<<<<<*/
-        <link rel="stylesheet" type="text/css" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-beta.3/css/bootstrap.min.css"></link>
-        /* Fin de implementacion>>>>>>>>>>>>*/
 
-        /* Configuracion de miniaturas del carrusel<<<<<<<<<<*/
-        <link href="http://netdna.bootstrapcdn.com/bootstrap/3.2.0/css/bootstrap.min.css" rel="stylesheet">
         <style type="text/css">
         .hide-bullets {
             list-style:none;
-            margin-left: -40px;
-            margin-top:20px;
+            margin: auto;
         }
         .hide-bullets img{
-            width: 50%;
-            height: 50%;
+            width: 100%;
+            height: 100%;
         }
         </style>
         /* Fin de la configuracion>>>>>>>>>*/
 
-        <script src="http://code.jquery.com/jquery-1.11.1.min.js"></script>
-        <script src="http://netdna.bootstrapcdn.com/bootstrap/3.2.0/js/bootstrap.min.js"></script>
+        <!-- <script src="http://code.jquery.com/jquery-1.11.1.min.js"></script> -->
+        <!-- <script src="http://netdna.bootstrapcdn.com/bootstrap/3.2.0/js/bootstrap.min.js"></script> -->
 
-                /* Configuracion del Zoom<<<<<<<<<*/
         <link href="http://netdna.bootstrapcdn.com/bootstrap/3.1.0/css/bootstrap.min.css" rel="stylesheet">
         <style type="text/css">
+        .x{
+			border:2px solid red;
+			width: 59%;
+        }
+        .x2{
+        	width: 100%;
+        	text-align: center;
+        }
+        .x2 li {
+			display: inline-block;
+			width: 50px;
+			height: 50px;
+			border:2px solid green;
+        }
         .mag {
             width:200px;
             margin: 0 auto;
@@ -75,30 +81,33 @@
         <div class="flex-conteiner">
 
             <div class="container">
-                <div id="main_area">
+                <div id="">
                 <!-- Slider -->
-                    <div class="row">
-                        <div class="col-xs-12" id="slider">
+                    <div class="">
+                        <div class="col-xs" id="slider">
                         <!-- Top part of the slider -->
-                            <div class="row">
-                                <div class="col-sm-8" id="carousel-bounding-box">
-                                    <div class="carousel slide" id="myCarousel">
+                            <div class="">
+                            <div class="col-sm" id="carousel-bounding-box">
+                                <div class="carousel slide" id="myCarousel">
                                     <!-- Carousel items -->
-                                    <div class="carousel-inner">
+                                    <div class="<!-- carousel-inner -->">
                                         <div class="active item mag" data-slide-number="0">
-                                        <img data-toggle="magnify" src="./img/1-2.png"></div>
+                                        <img data-toggle="magnify" src="./img/1-2.png" alt="">
+                                    	</div>
 
                                         <div class="item mag" data-slide-number="1">
-                                        <img data-toggle="magnify" src="./img/2-2.png"></div>
+                                        <img data-toggle="magnify" src="./img/2-2.png">
+                                    	</div>
 
                                         <div class="item mag" data-slide-number="2">
-                                        <img data-toggle="magnify" src="./img/3-2.png"></div>
+                                        <img data-toggle="magnify" src="./img/3-2.png">
+                                    	</div>
                                     </div><!-- Carousel nav -->                               
                                 </div>
                             </div>
 
 
-                            <script type="text/javascript">
+                            <!-- <script type="text/javascript">
                                     /*
                                     Credits:
                                     https://github.com/marcaube/bootstrap-magnify
@@ -221,12 +230,14 @@
                                         })
 
                                     } ( window.jQuery );
-                                    </script>
+                                    </script> -->
 
 
-                            <div class="col-sm-4" id="carousel-text"></div>
+                            <!-- <div class="col-sm-4" id="carousel-text">
+                            	
+                            </div> -->
 
-                            <div id="slide-content" style="display: none;">
+                            <!-- <div id="slide-content" style="display: none;">
                                 <div id="slide-content-0">
                                     <h2>Oro Blanco</h2>
                                     <p>24k</p>
@@ -244,24 +255,24 @@
                                     <p>24k</p>
                                     <p class="sub-text">Descripcion: - <a href="#">Read more</a></p>
                                 </div>
-                            </div>
+                            </div> -->
                         </div>
                     </div>
                 </div><!--/Slider-->
 
-                    <div class="row hidden-xs" id="slider-thumbs">
+                    <div class=" x hidden-xs" id="slider-thumbs">
                             <!-- Bottom switcher of slider -->
-                            <ul class="hide-bullets">
-                                <li class="col-sm-2">
-                                    <a class="thumbnail" id="carousel-selector-0"><img src="./img/1-2.png"></a>
+                            <ul class=" x2 hide-bullets">
+                                <li class="">
+                                    <a class="" id="carousel-selector-0"><img src="./img/1-2.png"></a>
                                 </li>
 
-                                <li class="col-sm-2">
-                                    <a class="thumbnail" id="carousel-selector-1"><img src="./img/2-2.png"></a>
+                                <li class="">
+                                    <a class="" id="carousel-selector-1"><img src="./img/2-2.png"></a>
                                 </li>
 
-                                <li class="col-sm-2">
-                                    <a class="thumbnail" id="carousel-selector-2"><img src="./img/3-2.png"></a>
+                                <li class="">
+                                    <a class="" id="carousel-selector-2"><img src="./img/3-2.png"></a>
                                 </li>
                             </ul>                 
                     </div>
@@ -297,6 +308,6 @@
 </section>
   <?php
             include("./footer.php");
-        ?>
+    ?>
     </body>
 </html>

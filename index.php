@@ -8,18 +8,21 @@
         <link href="https://fonts.googleapis.com/css?family=Libre+Baskerville:400,700|Lobster|Roboto:400,500" rel="stylesheet"></link>
         <link href="./css/style-index-main.css" rel="stylesheet"></link>
         <link href="./css/style-icon.css" rel="stylesheet" type="text/css"></link>
-        <script src="./js/effect-index.js">
-        </script>
-        <script src="./js/jquery-3.1.1.min.js">
-        </script>
+         <!-- style header -->
+    <link href="https://fonts.googleapis.com/css?family=Libre+Baskerville:400,700|Lobster|Roboto:400,500" rel="stylesheet"></link>
+    <link href="./css/style-icon.css" rel="stylesheet" type="text/css"></link>
+    <link rel="stylesheet" type="text/css" href="./css/style-header-main.css"></link>
+    <!-- Style footer -->
+    <link href="./css/style-footer-main.css" rel="stylesheet"></link>
+        
     </head>
     <body>
         <?php
             include("./header.php");
         ?> 
-        <?php 
+       <!--  <?php 
           include ("./slider/slider.php");
-        ?>
+        ?> -->
         <section class="section-main section-movil">
             <div class="wrap">
                 <div class="flex-conteiner">
@@ -102,4 +105,30 @@
             include("./footer.php");
         ?>
     </body>
+    <script src="./js/effect-index.js">
+    </script>
+    <script src="./js/jquery-3.1.1.min.js">
+    </script>
+    <!-- Effect header -->
+    <script>
+        function myFunction() {
+            document.getElementById("myDropdown").classList.toggle("show");
+        
+        }
+        window.onclick = function(e) {
+            if (!e.target.matches('.main-item')) {
+
+                    var wraper = document.getElementsByClassName("dropdown-content");
+                    var i;
+                    for (i = 0; i < wraper.length; i++) {
+                     var openDropdown = wraper[i];
+                        if (openDropdown.classList.contains("show")) {
+                        openDropdown.classList.remove("show");
+                     }
+                 }
+            }
+        }
+    </script>
+    <script src="./js/effect-index.js">
+    </script>
 </html>

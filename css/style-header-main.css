@@ -75,6 +75,7 @@ header nav a {
     transition: all 0.2s linear;
 }
 header nav a:hover {
+    text-decoration: none;
     box-sizing: border-box;
     border-bottom: 3px solid #bd9756;
 }

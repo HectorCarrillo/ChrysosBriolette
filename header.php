@@ -1,19 +1,3 @@
-<!DOCTYPE html>
-<html>
-    <head>
-        <meta name="viewport" content="width=device-width, user-scalable=no, initial-scale=1.0, maximun-scale=1.0, minimun-scale=1.0"></meta>
-        <meta charset="utf-8"></meta>
-        <meta content="IE=edge" http-equiv="X-UA-Compatible"></meta>
-        <title>header</title>
-        <link href="https://fonts.googleapis.com/css?family=Libre+Baskerville:400,700|Lobster|Roboto:400,500" rel="stylesheet"></link>
-        <link href="./css/style-icon.css" rel="stylesheet" type="text/css"></link>
-        <link rel="stylesheet" type="text/css" href="./css/style-header-main.css"></link>
-        <script src="./js/effect-index.js">
-        </script>
-        <script src="./js/jquery-3.1.1.min.js">
-        </script>
-    </head>
-<body>
 <header>
     <div id="container container-2">
         <div class="menu-movil">
@@ -69,24 +53,3 @@
         </div>
     </div>
 </header>
-<script>
- function myFunction() {
-        document.getElementById("myDropdown").classList.toggle("show");
-        
-    }
-    window.onclick = function(e) {
-        if (!e.target.matches('.main-item')) {
-
-            var wraper = document.getElementsByClassName("dropdown-content");
-            var i;
-            for (i = 0; i < wraper.length; i++) {
-            var openDropdown = wraper[i];
-            if (openDropdown.classList.contains("show")) {
-             openDropdown.classList.remove("show");
-                }
-            }
-        }
-    }
-</script>
-</body>
-</html>
